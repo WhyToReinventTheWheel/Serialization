@@ -1,6 +1,6 @@
 # Serialization
-##http://javarevisited.blogspot.com/2011/04/top-10-java-serialization-interview.html
-##https://java-questions.com/Serialization-interview-questions.html
+* http://javarevisited.blogspot.com/2011/04/top-10-java-serialization-interview.html
+* https://java-questions.com/Serialization-interview-questions.html
 * What is Serialization in Java?
 * How to make a Java class Serializable?
 * What is the difference between Serializable and Externalizable interface in Java?
