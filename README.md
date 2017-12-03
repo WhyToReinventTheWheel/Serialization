@@ -8,7 +8,7 @@
         * Change a field from static to non-static
         * Change a field from transient to non-transient
         * Add classes to the object tree
-      List of incompatible changes:
+     * List of incompatible changes:
         * Delete fields
         * Change class hierarchy
         * Change non-static to static
