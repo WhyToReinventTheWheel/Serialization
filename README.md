@@ -2,6 +2,17 @@
 * http://javarevisited.blogspot.com/2011/04/top-10-java-serialization-interview.html
 * https://java-questions.com/Serialization-interview-questions.html
 * What is Serialization in Java?
+  Changes to a serializable class can be compatible or incompatible. Following is the list of changes which are compatible:
+      Add fields
+        Change a field from static to non-static
+        Change a field from transient to non-transient
+        Add classes to the object tree
+        List of incompatible changes:
+      Delete fields
+        Change class hierarchy
+        Change non-static to static
+        Change non-transient to transient
+Change type of a primitive field
 * How to make a Java class Serializable?
 * What is the difference between Serializable and Externalizable interface in Java?
 * How many methods Serializable has? If no method then what is the purpose of Serializable interface?
